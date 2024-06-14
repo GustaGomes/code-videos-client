@@ -1,5 +1,5 @@
 // 'use client';
-import BugButton from '@/app/components/BugButton';
+// import BugButton from '@/app/components/BugButton';
 import { getUserInfo } from '@/app/lib/settings';
 import React from 'react';
 
@@ -15,9 +15,7 @@ async function Users() {
           <p> Age: {age}</p>
         </div>
       </div>
-      <div className='mt-4'>
-        <BugButton />
-      </div>
+      <div className='mt-4'>{/* <BugButton /> */}</div>
     </>
   );
 }

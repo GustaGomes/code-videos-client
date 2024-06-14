@@ -1,8 +1,9 @@
 'use client';
 
 import React, { FormEvent, useState } from 'react';
-import { AuthForm } from '@/app/components/AuthForm';
+
 import { useRouter } from 'next/navigation';
+import { AuthForm } from '@/app/components/AuthForm';
 
 type ServerError = {
   message: string;
